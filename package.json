@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "Server.js",
+  "main": "App.js",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "cors": "^2.8.5",
