@@ -10,7 +10,7 @@
     "mongoose": "^5.8.9",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
-    "node": "13.x",
+    "node": "^13.6.0",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {},
@@ -23,11 +23,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bacharoei/guideAppServer.git"
+    "url": "git+https://github.com/Bacharoei/test.git"
   },
   "bugs": {
-    "url": "https://github.com/Bacharoei/guideAppServer/issues"
+    "url": "https://github.com/Bacharoei/test/issues"
   },
-  "homepage": "https://github.com/Bacharoei/guideAppServer#readme",
+  "homepage": "https://github.com/Bacharoei/test#readme",
   "description": ""
 }
