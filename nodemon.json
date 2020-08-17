@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_USERNAME": "root",
+    "MONGO_PASSWORD": "Zertodata1!"
+  }
+}
