@@ -16,7 +16,8 @@ app.use(
 /* connection to the DB */
 
 mongoose.connect(
-  `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0-v9e6h.azure.mongodb.net/guides?retryWrites=true&w=majority`,
+  `mongodb+srv://userAdmin:Zertodata1!@cluster0-v9e6h.azure.mongodb.net/<dbname>?retryWrites=true&w=majority`,
+  //`mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0-v9e6h.azure.mongodb.net/guides?retryWrites=true&w=majority`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
