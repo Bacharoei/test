@@ -1,7 +1,6 @@
 {
-  "name": "test",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "App.js",
   "dependencies": {
     "bcrypt": "^4.0.1",
@@ -14,19 +13,21 @@
     "node": "^13.6.0",
     "nodemon": "^2.0.2"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bacharoei/test.git"
+    "start": "nodemon server.js",
+    "inspect": "nodemon --inspect --trace-warnings server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bacharoei/test/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bacharoei/guideAppServer.git"
   },
-  "homepage": "https://github.com/Bacharoei/test#readme"
- 
+  "bugs": {
+    "url": "https://github.com/Bacharoei/guideAppServer/issues"
+  },
+  "homepage": "https://github.com/Bacharoei/guideAppServer#readme",
+  "description": ""
 }
